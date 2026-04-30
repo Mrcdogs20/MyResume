@@ -25,7 +25,6 @@ body {
     font-family: "Segoe UI", Arial, sans-serif; 
     line-height: 1.6; 
     margin: 0; 
-    padding: 0; 
     background: rgb(243, 239, 239); 
     color: #222; 
 } 
@@ -36,3 +35,9 @@ body {
       padding-bottom: 5px; 
       font-weight: bold;
   }
+
+main {
+  max-width: 900px;   /* keeps content from stretching too wide */
+  margin: 0 auto;     /* centers content */
+  padding: 20px;
+}
