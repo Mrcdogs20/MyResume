@@ -20,3 +20,19 @@ header img {
   width: 750px;
   height: auto; 
 }
+
+body { 
+    font-family: "Segoe UI", Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0; 
+    background: rgb(243, 239, 239); 
+    color: #222; 
+} 
+  
+  h2 { 
+      margin-top: 30px;
+      border-bottom: 2px solid #ccc; 
+      padding-bottom: 5px; 
+      font-weight: bold;
+  }
