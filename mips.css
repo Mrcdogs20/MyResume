@@ -40,7 +40,7 @@ body {
 .images {
   display: flex;
   justify-content: center; 
-  gap: 20px;             
+  gap: 5px;             
   margin-top: 10px;
 }
 
