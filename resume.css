@@ -1,0 +1,84 @@
+@media (min-width: 900px) { 
+  header h1 { 
+    font-size: 3rem; 
+  } 
+  section { 
+    padding: 12px; 
+    margin-top: 0;
+  } 
+} 
+
+@media (max-width: 600px) { 
+  header h1 { 
+    font-size: 2rem; 
+  } 
+  header a img { 
+    width: 35px; 
+  } 
+  section { 
+    padding: 10px; 
+    margin-top: 0;
+  } 
+  body { 
+    font-size: 0.95rem; 
+  } 
+}
+
+header { 
+    text-align: center; 
+    padding: 20px 0; 
+    border-bottom: 2px solid #ccc; 
+} 
+
+header h1 { 
+    font-size: 2.5rem; 
+    margin-bottom: 5px; 
+} 
+
+header img { 
+    width: 40px; 
+}
+
+body { 
+    font-family: "Segoe UI", Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0; 
+    background: rgb(243, 239, 239); 
+    color: #222; 
+} 
+  
+  h2 { 
+      margin-top: 30px;
+      border-bottom: 2px solid #ccc; 
+      padding-bottom: 5px; 
+      font-weight: bold;
+  }
+
+  a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ucf-logo,
+.ssc-logo {
+  float: right;
+  width: 75px;
+  height: 85px;
+  padding: 0;        /* remove downward push */
+  margin-top: -45px;  /* lift upward */
+  margin-right: 10px;
+}
+
+#jobs {
+  color: #222;
+}
+
+#jobs:hover {
+  text-decoration: underline;
+}
